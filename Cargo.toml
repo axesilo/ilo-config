@@ -1,11 +1,14 @@
 [package]
 authors = ["Axesilo <d.matthew.carroll@gmail.com>"]
+categories = ["config", "filesystem"]
 description = "Library for maintaining configs on disk in a simple, ergonomic way."
 edition = "2021"
+license-file = "LICENSE"
+keywords = ["ilo", "config"]
 name = "ilo-config"
+readme = "README.md"
+repository = "https://github.com/axesilo/ilo-config"
 version = "0.1.0"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 envy = "0.4.2"
