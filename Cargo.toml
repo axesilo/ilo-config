@@ -1,0 +1,19 @@
+[package]
+authors = ["Axesilo <d.matthew.carroll@gmail.com>"]
+description = "Library for maintaining configs on disk in a simple, ergonomic way."
+edition = "2021"
+name = "ilo-config"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+envy = "0.4.2"
+home = "0.5.9"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.115"
+thiserror = "1.0.58"
+
+[dev-dependencies]
+# Dependencies needed for examples go here.
+#

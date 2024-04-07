@@ -1,0 +1,15 @@
+// Folder-specific settings
+//
+// Copy this file to `settings.json` or merge it with your existing settings to configure the Zed
+// editor for project guidelines-conformant development.
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#folder-specific-settings
+{
+    "tab_size": 4,
+    "wrap_guides": [
+        100
+    ],
+    "soft_wrap": "editor_width",
+    "format_on_save": "language_server"
+}
