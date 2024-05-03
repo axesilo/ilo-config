@@ -8,7 +8,7 @@ keywords = ["ilo", "config"]
 name = "ilo-config"
 readme = "README.md"
 repository = "https://github.com/axesilo/ilo-config"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
 envy = "0.4.2"
@@ -19,4 +19,4 @@ thiserror = "1.0.58"
 
 [dev-dependencies]
 # Dependencies needed for examples go here.
-#
+reqwest = { version = "0.12.4", features = ["blocking"] }

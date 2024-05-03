@@ -7,6 +7,9 @@
 //! cargo run --example todo-list -- add "Get directions to the Palanaeum"
 //! cargo run --example todo-list -- list
 //! cargo run --example todo-list -- do 1  # Mark "Finish sketch of skyeels" complete
+//!
+//! # Optional: clean up config file that was created
+//! rm ~/.config/ilo/axesilo-example-todo-list.json
 //! ```
 //!
 //! # Developer Notes
